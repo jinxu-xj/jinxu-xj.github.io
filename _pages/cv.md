@@ -7,58 +7,35 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+A public PDF version of my CV will be added here after removing private referee information.
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **M.A. in Quantitative Economics**, Xiamen University, 2021-2024.
+  PhD-level coursework in microeconomics, financial economics, econometrics, macroeconomics, and empirical finance.
+* **B.A. in Economics, Finance**, Hunan University, 2017-2021.
+  GPA: 3.84/4.00. National Scholarship recipient.
+* **Summer School Visiting Student**, University of Oxford, 2019.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Research Experience
+======
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Research Assistant**, Department of Finance, The Chinese University of Hong Kong, 2024-present.
+  Replicate empirical results on asset pricing and macro-finance in top journals and collaborate on ongoing research.
 
-Publications
+Selected Honors and Awards
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+
+* Outstanding Graduate, Hunan University, Top 5%.
+* National Scholarship, Top 1%.
+* Honorable Mention, Interdisciplinary Contest in Modeling.
+* Financial and Economic Education Award Fund Scholarship.
+
+Software, Data, and Languages
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+* Software: Stata, Python, SAS, Matlab.
+* Databases: Compustat, CRSP, BoardEx, Thomson/Refinitiv, OSHA, Violation Tracker, CSMAR.
+* Unique data: Employee reviews for listed companies in China from 2014 to 2023.
+* Languages: Chinese, English.
