@@ -2,84 +2,45 @@
 
 Last updated: 2026-05-16
 
-## Current Goal
+## Current Progress
 
-- Maintain and refine Jin Xu's long-term academic homepage built with AcademicPages on GitHub Pages.
-- Keep the live site out of search results while the user revises content.
-- Preserve operational memory for future Codex sessions.
-
-## Current State
-
-- Local repository root: `C:\BaiduSyncdisk\codex\Personal Website\github-site\jinxu-xj.github.io`.
+- Project root: `C:\BaiduSyncdisk\codex\Personal Website\github-site\jinxu-xj.github.io`.
 - Remote repository: `https://github.com/jinxu-xj/jinxu-xj.github.io`.
 - Live URL: `https://jinxu-xj.github.io/`.
-- Git status before memory initialization was clean: `master...origin/master`.
-- The site is live and has been verified to include the user's homepage content.
-- The site currently includes page-level `noindex, nofollow, noarchive, nosnippet` in `_includes/head/custom.html`.
-- `robots.txt` exists and notes that noindex is handled at page level.
-- Outer folder `C:\BaiduSyncdisk\codex\Personal Website` was cleaned; only `github-site` remained before memory files were added.
+- Site framework: AcademicPages/Jekyll on GitHub Pages.
+- Current branch: `master`.
+- Site is live but intentionally hidden from search engine indexing with `noindex, nofollow, noarchive, nosnippet` in `_includes/head/custom.html`.
+- `robots.txt` exists and notes that search hiding is handled by page-level noindex.
+- Current local Git state before this checkpoint: clean and in sync with `origin/master`.
 
-## Files Touched This Session
+## Completed
 
-- Created `AGENTS.md`.
-- Created `docs/PROJECT_MEMORY.md`.
-- Created `docs/HANDOFF.md`.
-- Created `docs/DECISIONS.md`.
-- Created `docs/ENV_SETUP.md`.
-
-Recent prior site files already changed and pushed:
-
-- `_config.yml`
-- `_data/navigation.yml`
-- `_pages/about.md`
-- `_pages/publications.html`
-- `_pages/teaching.html`
-- `_pages/cv.md`
-- `_publications/2025-jbf-creditor-rights.md`
-- `_publications/2024-ceo-rugged-individualism.md`
-- `_publications/2024-classified-board-workplace-safety.md`
-- `_includes/archive-single.html`
-- `_includes/head/custom.html`
-- `robots.txt`
-- `images/profile.png`
-- `JINXU_SITE_NOTES.md`
-
-## Commands Run And Known Results
-
-- Listed project root and confirmed the real repository is `github-site\jinxu-xj.github.io`.
-- Read `README.md`, `JINXU_SITE_NOTES.md`, `_config.yml`, `_data/navigation.yml`, `_pages/about.md`, `_pages/publications.html`, `_pages/teaching.html`, `_pages/cv.md`, `_includes/head/custom.html`, and `robots.txt`.
-- Ran Git status with GitHub Desktop bundled git:
-  `C:\Users\12428\AppData\Local\GitHubDesktop\app-3.5.8\resources\app\git\cmd\git.exe status -sb`
-- Prior verification after hiding search indexing:
-  - `https://jinxu-xj.github.io/` returned 200 and contained `noindex, nofollow`.
-  - Home, Research, Teaching, and CV pages had previously returned 200 after the AcademicPages customization.
-- No local Ruby/Jekyll build was run in this memory initialization step.
-
-## Blockers Or Risks
-
-- ORCID URL, Google Scholar URL, SSRN/RePEc links, formal photo, and public CV PDF are still missing.
-- The live site is not indexed but remains reachable by direct link.
-- GitHub Pages deployment/build status should be checked after future pushes, especially if editing config or Liquid templates.
-- GitHub Actions may create automated `talkmap` updates; check remote status before pushing.
+- AcademicPages template was customized into Jin Xu's academic homepage.
+- Template sample pages, sample posts, sample talks, sample teaching entries, portfolio pages, and sample PDFs were removed.
+- Navigation is simplified to `Research`, `Teaching`, and `CV`.
+- Homepage content lives in `_pages/about.md`.
+- Research entries live in `_publications/`.
+- Current listed research includes one published Journal of Banking & Finance article and two working papers.
+- Teaching/service content lives in `_pages/teaching.html`.
+- CV-style page lives in `_pages/cv.md`; no referee/private information is published.
+- Sidebar/site metadata is configured in `_config.yml`.
+- Root working folder was cleaned so `C:\BaiduSyncdisk\codex\Personal Website` only contains `github-site`.
+- Project memory files exist: `AGENTS.md`, `docs/PROJECT_MEMORY.md`, `docs/HANDOFF.md`, `docs/DECISIONS.md`, and `docs/ENV_SETUP.md`.
 
 ## Next Steps
 
-1. Ask the user for ORCID URL, Google Scholar URL, formal photo path, and public CV PDF without referees.
-2. Refine homepage language and Research page ordering/content to match finance/economics scholar norms.
-3. Decide whether to keep noindex until the site is ready, temporarily unpublish GitHub Pages, or switch to a minimal "under construction" landing page.
-4. Consider disabling unused AcademicPages features if they create automated noise.
-5. After edits, commit and push only if the user asks to publish.
+1. Add real ORCID URL, Google Scholar URL, and any SSRN/RePEc links to `_config.yml`.
+2. Replace `images/profile.png` with a formal portrait if the user provides one.
+3. Add a public CV PDF to `files/` only after removing referee/private information, then link it from `_pages/cv.md`.
+4. Refine homepage bio, research wording, paper summaries, author order, and news items to match finance/economics academic homepage norms.
+5. Decide whether to keep `noindex`, unpublish GitHub Pages temporarily, or replace the live page with a minimal under-construction page.
+6. Remove `noindex` only when the user is ready for search engines to index the site.
 
-## Open Questions
+## Blockers And Risks
 
-- Should the site remain live with `noindex`, be unpublished, or show a minimal under-construction page?
-- Should the Chinese name appear on the public site?
-- Should the website eventually use a custom domain?
-- Which formal author ordering should be used for each working paper if different from the current entries?
-
-## Notes For The Next Chat
-
-- Start by reading this file plus `docs/PROJECT_MEMORY.md`.
-- Use GitHub Desktop bundled git unless normal `git` is available.
-- Keep private referee information out of all public files.
-- The user prefers standard academic homepage style, similar to AcademicPages/Google Sites scholar pages, not a custom portfolio design.
+- ORCID, Google Scholar, SSRN/RePEc links are still missing.
+- Formal portrait and public CV PDF are still missing.
+- The live site is not indexed but remains accessible to anyone with the direct URL.
+- GitHub Pages build status should be checked after future pushes, especially after `_config.yml` or Liquid template changes.
+- GitHub may create automated `talkmap` commits; fetch before pushing if remote history changes.
+- Mainland China access to `github.io` may be unstable; a custom domain or mirror may be needed later.
