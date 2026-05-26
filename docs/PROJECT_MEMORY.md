@@ -19,7 +19,7 @@
   - `_pages/` for Home/About, Research, Teaching, CV pages.
   - `_publications/` for one Markdown file per paper.
   - `_includes/head/custom.html` for custom head tags including temporary search hiding.
-  - `images/profile.png` for sidebar image.
+  - `images/profile.png` exists but the sidebar avatar is currently disabled.
   - `files/` for public CV and paper PDFs.
 - External services: GitHub Pages; future ORCID, Google Scholar, SSRN/RePEc links may be added.
 
@@ -53,10 +53,13 @@
   - Location: Hong Kong
   - Employer: The Chinese University of Hong Kong
   - Email: `jinxu0209@gmail.com`
-  - GitHub: `jinxu-xj`
+- No Website, GitHub, or avatar is displayed in the sidebar.
 - ORCID, Google Scholar, SSRN/RePEc links are not yet filled in.
 - A public CV PDF has not been added yet because the original CV includes private referee information.
-- `images/profile.png` is currently a placeholder research mark, not a formal portrait.
+- The CV page is intentionally empty until a public CV link/PDF is added.
+- Teaching page intentionally keeps only the TA entry.
+- The footer intentionally keeps only the site last-updated date.
+- The theme toggle is intentionally hidden.
 - Published paper currently listed:
   - Xiaoran Ni, Jin Xu, and David Yin. "Are Enhanced Creditor Rights in Bankruptcy Desirable to Shareholders? Evidence from the Cost of Equity Capital." Journal of Banking & Finance, Volume 175, 2025, Article 107442. DOI: `10.1016/j.jbankfin.2025.107442`.
 - Working papers currently listed:

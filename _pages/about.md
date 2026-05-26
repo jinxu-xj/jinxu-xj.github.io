@@ -20,6 +20,13 @@ Research Interests
 * Financial Contracting and Bankruptcy
 * Workplace Safety and Employee Welfare
 
+Education
+======
+
+* **Xiamen University**, M.A. in Quantitative Economics, 2021-2024.
+* **Hunan University**, B.A. in Economics, Finance, 2017-2021.
+* **University of Oxford**, Summer School Visiting Student, 2019.
+
 Selected Research
 ======
 

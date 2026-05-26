@@ -12,6 +12,7 @@ Last updated: 2026-05-16
 - Site is live but intentionally hidden from search engine indexing with `noindex, nofollow, noarchive, nosnippet` in `_includes/head/custom.html`.
 - `robots.txt` exists and notes that search hiding is handled by page-level noindex.
 - Current local Git state before this checkpoint: clean and in sync with `origin/master`.
+- Current requested cleanup removes visible Website/GitHub links, avatar, theme toggle, extra footer links, CV text, and non-TA teaching/service items.
 
 ## Completed
 
@@ -19,11 +20,13 @@ Last updated: 2026-05-16
 - Template sample pages, sample posts, sample talks, sample teaching entries, portfolio pages, and sample PDFs were removed.
 - Navigation is simplified to `Research`, `Teaching`, and `CV`.
 - Homepage content lives in `_pages/about.md`.
+- Homepage now includes a brief Education section.
 - Research entries live in `_publications/`.
 - Current listed research includes one published Journal of Banking & Finance article and two working papers.
-- Teaching/service content lives in `_pages/teaching.html`.
-- CV-style page lives in `_pages/cv.md`; no referee/private information is published.
-- Sidebar/site metadata is configured in `_config.yml`.
+- Teaching page lives in `_pages/teaching.html` and currently shows only the TA entry.
+- CV page lives in `_pages/cv.md` and currently has no visible body text until a CV link/PDF is added.
+- Sidebar/site metadata is configured in `_config.yml`; Website, GitHub, and avatar are currently blank/hidden.
+- Footer is simplified to only the site last-updated date.
 - Root working folder was cleaned so `C:\BaiduSyncdisk\codex\Personal Website` only contains `github-site`.
 - Project memory files exist: `AGENTS.md`, `docs/PROJECT_MEMORY.md`, `docs/HANDOFF.md`, `docs/DECISIONS.md`, and `docs/ENV_SETUP.md`.
 

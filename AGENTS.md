@@ -37,7 +37,7 @@ At the start of a new Codex chat in this project:
 - `_pages/cv.md`: public CV-style content and CV PDF link.
 - `_includes/head/custom.html`: current `noindex` setting.
 - `files/`: public CV and paper PDFs.
-- `images/profile.png`: sidebar image.
+- `images/profile.png`: currently not displayed; only use if the user later asks to add a formal portrait.
 
 ## Before Ending A Work Session
 
