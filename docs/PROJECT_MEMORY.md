@@ -19,9 +19,9 @@
   - `_pages/` for Home/About, Research, Teaching, CV pages.
   - `_publications/` for one Markdown file per paper.
   - `_includes/head/custom.html` for custom head tags including temporary search hiding.
-  - `images/profile.png` exists but the sidebar avatar is currently disabled.
+  - `images/profile.png` is displayed as the sidebar avatar.
   - `files/` for public CV and paper PDFs.
-- External services: GitHub Pages; future ORCID, Google Scholar, SSRN/RePEc links may be added.
+- External services: GitHub Pages and SSRN profile; future ORCID, Google Scholar, and RePEc links may be added.
 
 ## Local Conventions
 
@@ -49,22 +49,26 @@
 - Current navigation is `Research`, `Teaching`, `CV`; the root page is the About/Home page.
 - Current sidebar identity:
   - Name: Jin Xu
-  - Bio: Empirical Corporate Finance | Empirical Asset Pricing
+  - Bio: First-year PhD Student | Empirical Corporate Finance
   - Location: Hong Kong
-  - Employer: The Chinese University of Hong Kong
+  - Employer: School of Accounting and Finance, The Hong Kong Polytechnic University
   - Email: `jinxu0209@gmail.com`
-- No Website, GitHub, or avatar is displayed in the sidebar.
-- ORCID, Google Scholar, SSRN/RePEc links are not yet filled in.
+- Website and GitHub are not displayed in the sidebar.
+- Sidebar avatar is enabled with `images/profile.png`, generated from `C:\Users\12428\Desktop\XU Jin_edited.png`.
+- SSRN profile is set to `https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=6447580`.
+- ORCID, Google Scholar, and RePEc links are not yet filled in.
 - A public CV PDF has not been added yet because the original CV includes private referee information.
 - The CV page is intentionally empty until a public CV link/PDF is added.
 - Teaching page intentionally keeps only the TA entry.
 - The footer intentionally keeps only the site last-updated date.
 - The theme toggle is intentionally hidden.
 - Published paper currently listed:
-  - Xiaoran Ni, Jin Xu, and David Yin. "Are Enhanced Creditor Rights in Bankruptcy Desirable to Shareholders? Evidence from the Cost of Equity Capital." Journal of Banking & Finance, Volume 175, 2025, Article 107442. DOI: `10.1016/j.jbankfin.2025.107442`.
+  - Xiaoran Ni, Jin Xu, and David Yin. "Are Enhanced Creditor Rights in Bankruptcy Desirable to Shareholders? Evidence from the Cost of Equity Capital." Journal of Banking & Finance, Volume 175, 2025, Article 107442. Published page: `https://www.sciencedirect.com/science/article/pii/S0378426625000627`; SSRN: `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3678059`.
 - Working papers currently listed:
-  - "CEO Rugged Individualism and Workplace Safety"
-  - "Classified Board and Workplace Safety"
+  - "CEO Rugged Individualism and Workplace Safety" with SSRN: `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4753516`
+  - "The Safety Shield: How Classified Boards Benefit Rank-and-File Employees" with SSRN: `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4753527`
+- Inactive research currently listed:
+  - "Uncertainty about 'Uncertainty'" with SSRN: `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5315516`
 
 ## Watchouts
 

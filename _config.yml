@@ -23,12 +23,12 @@ repository               : "jinxu-xj/jinxu-xj.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           :
+  avatar           : "profile.png"
   name             : "Jin Xu"
   pronouns         : # example: "she/her"  
-  bio              : "Empirical Corporate Finance | Empirical Asset Pricing"
+  bio              : "First-year PhD Student | Empirical Corporate Finance"
   location         : "Hong Kong"
-  employer         : "The Chinese University of Hong Kong"
+  employer         : "School of Accounting and Finance, The Hong Kong Polytechnic University"
   uri              :
   email            : "jinxu0209@gmail.com" 
 
@@ -40,7 +40,7 @@ author:
   impactstory      : # URL
   orcid            :
   semantic         : # URL
-  ssrn             : # URL
+  ssrn             : "https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=6447580"
   pubmed           :
   researchgate     : # URL
   scopus           : # URL
@@ -88,6 +88,8 @@ publication_category:
     title: 'Published Articles'
   working:
     title: 'Working Papers'
+  inactive:
+    title: 'Inactive Research'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
